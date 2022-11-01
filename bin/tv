@@ -1,0 +1,8 @@
+#!/bin/bash
+
+readarray streams < ~/.config/tv/streams
+
+for channel in "${streams[@]}"; do
+	echo $channel
+	streamlink twitch.tv/$channel best -p mpv -a '--no-input-terminal --no-input-cursor --no-osc --no-osd-bar' --twitch-disable-hosting && \ 
+done

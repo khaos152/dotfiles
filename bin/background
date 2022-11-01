@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if command -v convert >/dev/null 2>&1 ; then
+
+	input=$1
+	IFS='.'
+	read -ra arr <<< "$input"
+	filetype=${arr[-1]}
+
+	mv $1 background.jpg
+	convert background.jpg -gaussian-blur 0x15 background-blur.jpg
+
+	mv background.jpg /usr/share/backgrounds/.
+	mv background-blur.jpg /usr/share/backgrounds/.
+
+else
+	echo "ERROR: Imagemagick not found"
+fi
