@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+win="$(xdotool getwindowfocus getwindowpid)"
+focus_index=$(pacmd list-sink-inputs | awk '/index:/{si = $2}; /'"$win"'/{print si; exit}')
+[[ "$focus_index" ]] && pactl set-sink-input-mute "$focus_index" toggle

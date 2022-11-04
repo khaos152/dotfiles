@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "public ip:"
+curl https://ipinfo.io/ip
+echo
+ip route show
+echo
