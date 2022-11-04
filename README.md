@@ -25,23 +25,22 @@
 # additional packages
 
 
-<p>fonts</p>
+fonts
 `pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gsfonts ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-2048-em-mono`
 
-
-<p>dm & wm</p>
+dm & wm
 `pacman -S sxhkd lightdm-gtk-greeter light-locker feh rofi unclutter lxappearance pcmanfm gvfs gvfs-smb`
 
 
-<p>consooming</p>
+consooming
 `pacman -S mpv streamlink yt-dlp`
 
 
-<p>shell</p>
+shell
 `pacman -S zsh-completions pacman -S zsh-theme-powerlevel10k`
 
 
-<p>for notebooks</p>
+for notebooks
 `pacman -S netctl dialog dhcpcd dhcp wpa_supplicant light`
 `yay -S rofi-wifi-menu-git`
 
