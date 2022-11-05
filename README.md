@@ -2,7 +2,7 @@
 
 ----------------------------------------------------------------------
 
-<img src="https://raw.githubusercontent.com/khaos152/dotfiles/main/preview.png" alt="img" align="right" width="600px">
+<img src="https://raw.githubusercontent.com/khaos152/dotfiles/main/preview.png" alt="img" align="right" width="550px">
 
 
 | Program           | Name                                                                                   |
