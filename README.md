@@ -29,8 +29,8 @@
 # additional packages
 
 
-fonts
-`pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gsfonts ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-2048-em-mono`
+<p>fonts</p>
+<p> `pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gsfonts ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-2048-em-mono` </p>
 
 dm & wm
 `pacman -S sxhkd lightdm-gtk-greeter light-locker feh rofi unclutter lxappearance pcmanfm gvfs gvfs-smb`
