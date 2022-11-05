@@ -29,40 +29,46 @@
 # additional packages
 
 
-fonts
+fonts:
 ```
 pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gsfonts ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-2048-em-mono
 ```
 
-dm & wm
+
+dm & wm:
 ```
 pacman -S sxhkd lightdm-gtk-greeter light-locker feh rofi unclutter lxappearance pcmanfm gvfs gvfs-smb
 ```
 
-consooming
+
+consooming:
 ```
 pacman -S mpv streamlink yt-dlp
 ```
 
-shell
+
+shell:
 ```
 pacman -S zsh-completions zsh-theme-powerlevel10k
 ```
 
-for notebooks
+
+for notebooks:
 ```
 pacman -S netctl dialog dhcpcd dhcp wpa_supplicant light
 yay -S rofi-wifi-menu-git
 ```
 
-printing
+
+printing:
 ```
 pacman -S --needed --noconfirm cups extra/system-config-printer simple-scan
 systemctl enable cups
 pacman -S --needed --noconfirm hplip python-pyqt5 python-qtpy
 ```
 
-KVM
+
+KVM:
 ```
 pacman -S --needed --noconfirm qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat libguestfs qemu-block-gluster
 systemctl enable libvirtd
