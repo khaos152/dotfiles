@@ -4,6 +4,7 @@
 <p>
 <img src="https://raw.githubusercontent.com/khaos152/dotfiles/main/preview.png" alt="img" align="right" width="100%">
 </p>
+
 ----------------------------------------------------------------------
 essentials
 ----------------------------------------------------------------------
