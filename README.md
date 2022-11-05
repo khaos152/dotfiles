@@ -2,7 +2,7 @@
 
 ----------------------------------------------------------------------
 
-<img src="https://raw.githubusercontent.com/khaos152/dotfiles/main/preview.png" alt="img" align="right" width="530px">
+<img src="https://raw.githubusercontent.com/khaos152/dotfiles/main/preview.png" alt="img" align="right" width="100%">
 
 
 | Program           | Name                                                                                   |
@@ -37,7 +37,7 @@ consooming
 
 
 shell
-`pacman -S zsh-completions pacman -S zsh-theme-powerlevel10k`
+`pacman -S zsh-completions zsh-theme-powerlevel10k`
 
 
 for notebooks
