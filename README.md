@@ -5,6 +5,7 @@
 <img src="https://raw.githubusercontent.com/khaos152/dotfiles/main/preview.png" alt="img" align="right" width="100%">
 
 ----------------------------------------------------------------------
+----------------------------------------------------------------------
 essentials
 ----------------------------------------------------------------------
 
@@ -48,13 +49,13 @@ for notebooks
 `yay -S rofi-wifi-menu-git`
 
 
-# printing
+printing
 `pacman -S --needed --noconfirm cups extra/system-config-printer simple-scan`
 `systemctl enable cups`
 `pacman -S --needed --noconfirm hplip python-pyqt5 python-qtpy`
 
 
-# KVM
+KVM
 `pacman -S --needed --noconfirm qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat libguestfs qemu-block-gluster`
 `systemctl enable libvirtd`
 `systemctl start libvirtd`
