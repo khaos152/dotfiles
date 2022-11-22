@@ -4,7 +4,7 @@ xsetroot -cursor_name left_ptr
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor eDP -d        調  
+bspc monitor -d   ﴣ    調   
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -24,9 +24,10 @@ bspc config focused_border_color  "#0073a1"
 bspc config normal_border_color   "#070530"
 
 bspc rule -a qutebrowser desktop='^2'
+bspc rule -a librewolf   desktop='^3'
 bspc rule -a KeePassXC   desktop='^7'
 
-exec open polybar       > /dev/null &
+exec open polybar       > /dev/null &1
 exec open qutebrowser   > /dev/null &
 exec open keepassxc     > /dev/null &
 exec open compton       > /dev/null &
